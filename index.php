@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>fonctionne enculé</p>
-    <p>khjygfuyi</p>
+    <p>pardon nous avons changés</p>
 </body>
 </html>
