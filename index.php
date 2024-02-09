@@ -8,7 +8,7 @@
 </head>
 <body>
     <p>fonctionne enculé</p>
-    <p>Dodo tu es gros cul!</p>
+    <p>Dodo tu es meilleur!</p>
     <h1>salut</h1>
 </body>
 </html>
