@@ -1,0 +1,209 @@
+/*Les Polices*/
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+    
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    line-height: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 40px;
+    margin: 50px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 5px 50px rgb(255, 255, 255);
+    width: 20%;
+
+
+}
+a{
+    position: relative;
+    justify-content: center;
+}
+
+/*menu responsive*/
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(219, 254, 252, 1), white);
+    
+}
+
+
+#signin{
+    display: inline-block;
+    width: 34px;
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.fleur {
+    width: 10%;  
+    position: absolute;
+    margin-top: 10%;
+    
+    
+    
+}
+
+
+
+.nav{
+
+    left: 20px;
+    top: 80px;
+    width: 45%;
+    position: fixed;
+    background-color: rgba(194, 139, 89, 0.96);
+    overflow: hidden;
+    z-index: 1;
+
+
+}
+
+.menu1 a{
+    display: flex;
+    margin-right: 220px;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu1 a:hover{
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+
+.nav{
+    max-height: 0;
+    transition: max-height .3s ease-out;
+
+}
+
+.hamb{
+    cursor: pointer;
+    float: left;
+    padding: 30px 20px; 
+}
+
+.hamb-line {
+    background: rgba(194, 139, 89, 0.96);
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 34px;
+}
+
+.hamb-line::before,
+.hamb-line::after{
+    background: rgb(0, 0, 0);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.hamb-line::before{
+    top: 7px;
+}
+
+.hamb-line::after{
+    top: -7px;
+}
+
+.side-menu {
+    display: none;
+}
+
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+
+/* Responsiveness VERSION WEB */
+
+@media (min-width: 768px) {
+    .nav{
+        max-height: none;
+        padding: 0%;
+        position: relative;
+        width: fit-content;
+        background-color: transparent;
+
+    }
+
+    .menu1 li{
+        float: left;
+        
+    }
+
+    .menu1 a:hover{
+        background-color: transparent;
+        color: rgba(194, 139, 89, 0.96);
+    }
+
+    .hamb{
+        display: none;
+    }
+    
+    .header {
+        height: 100%;
+        width:800px%;
+        background-image: linear-gradient(to bottom, rgba(219, 254, 252, 1), rgb(255, 255, 255));
+    }
+    .nav {
+        display: flex;
+        top: 1px;
+        justify-content: center;
+        gap: 30px;
+    }
+    #signin{
+        display: inline-block;
+        width: 550px;
+        float: left;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .fleur {
+        width: 2%;  
+        position: absolute;
+        margin-left: -135px;  
+        margin-top: 15px;
+    }
+}
