@@ -1,7 +1,9 @@
 /*Les Polices*/
 
 h1 {
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
     
 }
 
@@ -10,7 +12,7 @@ h2 {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    
     color: #808080;
     line-height: 20px;
 }
@@ -24,99 +26,78 @@ li {
     font-style: normal;
     font-size: 1.5vw;
     background-color: rgb(255, 255, 255);
-    box-shadow: 10px 5px 50px rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(194, 139, 89, 0.96);
     width: 20%;
-
-
 }
+
 a{
     position: relative;
     justify-content: center;
 }
 
-/*menu responsive*/
+/*menu responsive version MOB*/
 
 .header {
-    height: 60px;
+    height: fit-content;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(219, 254, 252, 1), white);
-    
 }
-
-
-#signin{
-    display: inline-block;
-    width: 34px;
-    float: right;
-    padding: 10px;
-    cursor: pointer;
-    
-}
-
-.fleur {
-    width: 10%;  
-    position: absolute;
-    margin-top: 10%;
-    
-    
-    
-}
-
-
 
 .nav{
-
-    left: 20px;
-    top: 80px;
-    width: 45%;
+    left: 230px;
+    top: 210px;
+    width: 40%;
     position: fixed;
-    background-color: rgba(194, 139, 89, 0.96);
+    background-color: rgba(255, 255, 255, 0.96);
     overflow: hidden;
     z-index: 1;
+    max-height: 0;
+    transition: max-height .3s ease-out;
+}
 
 
+li {
+    padding: 10px;
+    width: 76%;
+    margin: 10px;
+    
+}
+.menu1 {
+    padding-inline-start: 0px;
 }
 
 .menu1 a{
     display: flex;
-    margin-right: 220px;
-    padding: 10px;
+    margin-right: 10px;
     width: 100%;
     color: black;
     text-decoration: none;
-
+    margin-top: 3px;
 }
 
 .menu1 a:hover{
     background-color: #ffffff;
     width: 100%;
-
-}
-
-
-.nav{
-    max-height: 0;
-    transition: max-height .3s ease-out;
-
 }
 
 .hamb{
     cursor: pointer;
-    float: left;
-    padding: 30px 20px; 
+    float: right;
+    padding: 170px 10px; 
 }
 
 .hamb-line {
-    background: rgba(194, 139, 89, 0.96);
+    background-image: linear-gradient(to left, rgba(58, 205, 252, 1), rgba(238, 57, 198, 0.72), rgba(102, 59, 224, 1));
+    border-radius: 30px;   
     display: block;
-    height: 3px;
+    height: 6px;
     position: relative;
-    width: 34px;
+    width: 70px;
 }
 
 .hamb-line::before,
 .hamb-line::after{
-    background: rgb(0, 0, 0);
+    background-image: linear-gradient(to left, rgba(58, 205, 252, 1), rgba(238, 57, 198, 0.72), rgba(102, 59, 224, 1));
+    border-radius: 30px;   
     content: '';
     display: block;
     height: 100%;
@@ -126,11 +107,11 @@ a{
 }
 
 .hamb-line::before{
-    top: 7px;
+    top: 12px;
 }
 
 .hamb-line::after{
-    top: -7px;
+    top: -12px;
 }
 
 .side-menu {
@@ -155,6 +136,30 @@ a{
     top:0;
 }
 
+#header-img {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;   
+}
+#header-img h1 {
+    color: white;
+    position: relative;
+    top: -100px;
+    left: 20px;
+    text-shadow: 5px 1px 10px white;
+    width: 60%;
+    
+}
+
+#chevres {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    left: -10px;
+}
+
+
+
 
 /* Responsiveness VERSION WEB */
 
@@ -165,12 +170,25 @@ a{
         position: relative;
         width: fit-content;
         background-color: transparent;
+        top: 400px;
+        
 
     }
 
     .menu1 li{
-        float: left;
-        
+        float: right;
+        width: 15%;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .menu1 a{
+        display: flex;
+        margin-right: 220px;
+        padding: 10px;
+        width: 100%;
+        color: black;
+        text-decoration: none;
     }
 
     .menu1 a:hover{
@@ -184,26 +202,31 @@ a{
     
     .header {
         height: 100%;
-        width:800px%;
-        background-image: linear-gradient(to bottom, rgba(219, 254, 252, 1), rgb(255, 255, 255));
+        width:100%;
+        
     }
-    .nav {
-        display: flex;
-        top: 1px;
-        justify-content: center;
-        gap: 30px;
-    }
-    #signin{
-        display: inline-block;
-        width: 550px;
-        float: left;
-        padding: 20px;
-        cursor: pointer;
-    }
-    .fleur {
-        width: 2%;  
+
+
+    #header-img {
+        width: 100%;
         position: absolute;
-        margin-left: -135px;  
-        margin-top: 15px;
+        overflow: hidden;   
+    }
+
+
+    #header-img h1 {
+        color: white;
+        position: relative;
+        top: -680px;
+        left: 20px;
+        text-shadow: 5px 1px 20px white;
+    }
+
+
+    #chevres {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        
     }
 }
