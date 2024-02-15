@@ -131,16 +131,26 @@ footer button {
         flex-direction: row-reverse ;
     }
 
-    .btnFooter {
-        margin-left: 2vw;
-        margin-right: 2vw;
+
+
+    .btnFooterContent {
+        margin-left: 15vw;
+    }
+    .btnFooterContact {
+        margin-right: 15vw;
+
     }
 
-    .btnFooter li {
-        margin-bottom: 3vh;
+     .btnFooterContent li {
+        margin-bottom: 2vh;
+        text-align: left;
+    }
+
+    .btnFooterContact li {
+        margin-bottom: 2vh;
+        text-align: right;
     }
     .containerLogoFooter {
-        margin-top: 25vh;
         display: flex;
         flex-direction: row;
        
@@ -149,6 +159,7 @@ footer button {
     
     .logoFooter {
         display: flex;
+        width: 100%;
     }
 
 
@@ -162,14 +173,14 @@ footer button {
     }
 
     #logoFooter {
-    width: 50%;
+    width: 80%;
     height: auto;
     }
 
 
     .rsFooter {
         align-items: center;
-        gap: 52vw;
+        gap: 42vw;
  
     }
 
@@ -179,7 +190,15 @@ footer button {
     }
 
     .copyright {
+    border: 1px solid;
+    background-color: black;
    
+    }
+
+    .containerText {
+        margin-top: 0px;
+        padding-left: 1vh;
+        padding-right: 1vh;
     }
 
     #textCopyright {
