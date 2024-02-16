@@ -32,6 +32,59 @@ h2 {
     
 }
 
+.containerForm h2 {
+    margin-bottom: 8vh;
+    margin-top: 3vh;
+    margin-right: 6vw;
+}
+
+legend {
+    padding-right: 43vw;
+    font-family: 'roboto regular';
+    text-decoration: solid;
+    font-size: 5vw;
+}
+
+#titleTextareaForm {
+    padding-right: 30vw;
+    
+}
+
+.formChamp {
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+    margin-right: 10vw;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 90%;
+    border: 1px solid gold;
+    margin-right: vw;
+}
+
+.formChamp input {
+    border: 1px solid gold;
+    padding-left: 16vw;
+    padding-right: 12vw;
+
+}
+
+.buttonForm {
+    padding-bottom: 3vh;
+}
+
+.buttonForm button {
+    border: 1px solid gold;
+    background-color: white;
+    text-decoration: solid;
+    font-family: 'Aclonica';
+
+
+}
+
+
+/* Début footer */
 
 footer button {
     border: 0px;
@@ -108,6 +161,75 @@ footer button {
 
 
 @media screen and (min-width: 500px) {
+    
+    .containerForm h2 {
+        margin-bottom: 8vh;
+    
+    }
+    
+    .formChamp legend {
+        font-family: 'roboto regular';
+        text-decoration: solid;
+        font-size: 3vh;
+        padding: 0;
+        text-align: start;
+    }
+    #presentation {
+        
+    }
+    
+    #titleTextareaForm {
+        margin-left: 8vw;
+        margin-bottom: 1vh;
+                
+    }
+    
+    .formChamp {
+        margin-bottom: 6vh;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    textarea {
+        box-sizing: border-box;
+        width: 82%;
+        border: 1px solid gold;
+    }
+    
+    .formChamp input {
+        border: 1px solid gold;
+        padding: 0;
+        margin-top: 1vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    
+    }
+    
+    .buttonForm {
+        padding-bottom: 3vh;
+    }
+    
+    .buttonForm button {
+        border: 1px solid gold;
+        background-color: white;
+        text-decoration: solid;
+        font-family: 'Aclonica';
+    
+    
+    }
+
+    .containerNameMail {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    /*Fin form */
+    
+    
     .containerGlobal {
         display: flex;
         flex-direction: row;
@@ -209,6 +331,8 @@ footer button {
     }
  
 }
+
+/* fin de style footer */
 
 
 
