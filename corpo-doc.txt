@@ -1,0 +1,6 @@
+Convention de nommage : 
+
+classe, variable, fonctions : camelCase
+images, fichiers : kebab-case
+constantes : ALL_CAPS
+tables données sql : snake_case
