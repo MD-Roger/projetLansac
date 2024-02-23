@@ -8,38 +8,56 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <section class="containerForm">
-    <h2>Envoyez-nous un message</h2>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <section class="containerForm">
+            <h2>Envoyez-nous un message.</h2>
+        
+            <div class="containerForm">
+                <form action="" method="post">
+                    <fieldset>
+                        <div class="containerFormChamp">
     
-        <div class="containerForm">
-            <form action="" method="post">
-                <fieldset>
-                    <div class="containerNameMail">
-                        <div class="formChamp">
-                            <legend>Nom et prénom</legend>
-                            <input type="text" value="" required>
+    
+                            <div class="formChamp">
+                                <legend class="formHide">Nom prénom</legend>
+                                <label for="nomPrenom">Nom/Prénom</label>
+                                <input type="text" value=""  required>
+                            </div>
+    
+                            <div class="formChamp">
+                                <legend class="formHide">Adresse E-mail</legend>
+                                <label for="eMail">Adresse E-mail</label>
+                             <input type="email" value="" required>
+                            </div>
                         </div>
-
-                        <div class="formChamp">
-                            <legend>Adresse e-mail</legend>
-                            <input type="email" value=""  required>
-                        </div>
-                    </div>
-
-                    <div class="formChamp">
-                        <legend id="titleTextareaForm">Entrez votre message</legend>
-                        <textarea name="presentation" id="presentation" cols="120" rows="20"></textarea>
-                    </div>
-
-                    <div class="buttonForm">
-                        <button type="submit">Envoyer votre message</button>
-                    </div>
-
-                    
-                </fieldset>
-            </form>
-        </div>
-    </section>
+    
+                            <div class="formChamp">
+                                <legend class="formHide" id="legendPresentation">Entrez votre message</legend>
+                                <label for="presentation">Entrez votre message</label>
+                                <textarea name="presentation" id="presentation" cols="30" rows="10"></textarea>
+                            </div>
+    
+                            <div class="buttonForm">
+                             <button type="submit">Envoyer votre message</button>
+                            </div>
+    
+    
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        
+    </body>
+    </html>
     
 </body>
 </html>

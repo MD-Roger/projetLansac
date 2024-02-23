@@ -14,31 +14,39 @@
         <div class="containerForm">
             <form action="" method="post">
                 <fieldset>
-                    <div class="formChamp">
-                        <label for="nomPrenom">Nom/Prénom</label>
-                        <input type="text" value=""  required>
-                    </div>
+                    <div class="containerFormChamp">
 
-                    <div class="formChamp">
-                        <label for="eMail">Adresse E-mail</label>
-                        <input type="email" value="" required>
-                    </div>
 
-                    <div class="formChamp">
-                        <label for="numPhone">Numéro de téléphone</label>
+                        <div class="formChamp">
+                            <legend class="formHide">Adresse e-mail</legend>
+                            <label for="nomPrenom">Nom/Prénom</label>
+                            <input type="text" value=""  required>
+                        </div>
+
+                        <div class="formChamp">
+                            <legend class="formHide">Adresse E-mail</legend>
+                            <label for="eMail">Adresse E-mail</label>
+                         <input type="email" value="" required>
+                        </div>
+
+                        <div class="formChamp">
+                            <legend class="formHide">Numéro de téléphone</legend>
+                            <label for="numPhone">Numéro de téléphone</label>
                         <input type="number" value="numPhone" required>
+                        </div>
                     </div>
 
-                    <div class="formChamp">
-                        <label for="presentation">Présentez-vous</label>
-                        <textarea name="presentation" id="presentation" cols="30" rows="10"></textarea>
-                    </div>
+                        <div class="formChamp">
+                            <legend class="formHide" id="legendPresentation">Présentez-vous</legend>
+                            <label for="presentation">Présentez-vous</label>
+                            <textarea name="presentation" id="presentation" cols="30" rows="10"></textarea>
+                        </div>
 
-                    <div class="buttonForm">
-                        <button type="submit">Envoyer votre candidature</button>
-                    </div>
+                        <div class="buttonForm">
+                         <button type="submit">Envoyer votre candidature</button>
+                        </div>
 
-                    
+
                 </fieldset>
             </form>
         </div>

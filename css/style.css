@@ -64,8 +64,8 @@ textarea {
 
 .formChamp input {
     border: 1px solid gold;
-    padding-left: 16vw;
-    padding-right: 12vw;
+    width: 90vw;
+    text-align: start;
 
 }
 
@@ -221,10 +221,9 @@ footer button {
         border: 1px solid gold;
         padding: 0;
         margin-top: 1vh;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        padding-left: 10vw;
-        padding-right: 10vw;
+        width: 35vw;
+        height: 6vh;
+        
     
     }
     
