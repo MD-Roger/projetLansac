@@ -25,7 +25,7 @@ body {
 
 header {
   width: 100%;
-  background-color: blue;
+  background-color: red;
   height: 100px;
 }
 
@@ -37,27 +37,25 @@ main {
 }
 
 .firstContent {
-  padding: 10vh 35vh 15vh 35vh;
-}
+  padding: 15vh 15vh 5vh 15vh;
 
-.firstContent {
-  padding: 10vh 35vh 15vh 35vh;
-
-  img {
-    width: 80%;
+  h2 {
+    padding-bottom: 5vh;
   }
 }
+
+
+
+/*----------------------------------------- */
 
 @media only screen and (max-width: 767px) {
   .firstContent {
-    padding: 10vh 35vh 15vh 35vh;
+    padding: 10vh 5vh 5vh 5vh;
   }
 
   .secondContent {
-    padding: 10vh 35vh 15vh 35vh;
+    padding: 10vh 5vh 5vh 5vh;
 
-    img {
-      width: 80%;
-    }
+    
   }
 }
