@@ -55,11 +55,31 @@ legend {
     margin-top: 2vh;
 }
 
+.returnBtn {
+    display : flex;
+    justify-content : start;
+    margin-top: 2vh;
+    margin-left: 2vw;
+
+
+    
+}
+.returnBtn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border : 2px solid gold;
+    border-radius : 20px;
+    width: 20vw;
+    height: 4vh;
+    
+}
+
 textarea {
     box-sizing: border-box;
     width: 90%;
     border: 1px solid gold;
-    margin-right: vw;
+    text-align: start;
 }
 
 .formChamp input {
@@ -163,6 +183,45 @@ footer button {
 }
 
 
+/* DASHBOARD */
+
+#containerWelcome {
+    margin-bottom: 20vh;
+}
+
+#containerDashboard {
+    display: flex;
+    flex-direction : column-reverse;
+    justify-content : center;
+    align-items: center;
+}
+
+#containerPublication {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30vh;
+
+}
+
+
+.windowDashboard a {
+    display : flex;
+    flex-direction : column;
+    border: 1px black solid;
+    height: 22vh;
+    width: 36vw ;
+    justify-content: center;
+
+}
+
+#containerPublication a {
+    width: 36vw;
+    margin-top: 12vh;
+
+}
+
+
+
 @media screen and (min-width: 900px) {
 
     .containerFormChamp {
@@ -193,9 +252,6 @@ footer button {
         font-size: 3vh;
         padding: 0;
         text-align: start;
-    }
-    #presentation {
-        
     }
     
     #titleTextareaForm {
@@ -325,10 +381,6 @@ footer button {
  
     }
 
-    .ulRsFooter a {
-   
-
-    }
 
     .copyright {
     border: 1px solid;
@@ -341,51 +393,28 @@ footer button {
         padding-left: 1vh;
         padding-right: 1vh;
     }
+    .returnBtn a {
+        width: 8vw;
+        margin-left: 2vw;
+    }
 
-    #textCopyright {
-   
-
+    #inputNameContact {
+        margin-left: 8vw;
+    }
+    #inputNameContact, #inputMailContact {
+        width: 32vw;
+        
+    }
+    #formHideContact {
+        margin-left : 8vw;
+    }
 
     
-    }
- 
 }
 
 /* fin de style footer */
 
 
-/* DASHBOARD */
-
-#containerDashboard {
-    display: flex;
-    flex-direction : column-reverse;
-    justify-content : center;
-    align-items: center;
-}
-
-#containerPublication {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25vh;
-
-}
-
-
-.windowDashboard a {
-    display : flex;
-    flex-direction : column;
-    border: 1px black solid;
-    height: 46vh;
-    width: 36vw ;
-    justify-content: center;
-
-}
-
-#containerPublication a {
-    width: 36vw;
-    margin-top: 12vh;
-
-}
 
 
 

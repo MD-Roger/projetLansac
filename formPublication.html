@@ -9,7 +9,10 @@
 </head>
 <body>
     <section class="containerForm">
-        <h2>Pour devenir adhérent, envoyez-nous votre candidature.</h2>
+        <div class="returnBtn">
+            <a href="dashboard.html">Retour</a>
+        </div>
+        <h2>Renseignez les paramètres de l'évènement.</h2>
     
         <div class="containerForm">
             <form action="" method="post">
@@ -18,32 +21,38 @@
 
 
                         <div class="formChamp">
-                            <legend class="formHide">Nom prénom</legend>
-                            <label for="nomPrenom">Nom/Prénom</label>
+                            <legend class="formHide">Titre de l'évènement</legend>
+                            <label for="">Titre de l'évènement</label>
                             <input type="text" value=""  required>
                         </div>
 
                         <div class="formChamp">
-                            <legend class="formHide">Adresse E-mail</legend>
-                            <label for="eMail">Adresse E-mail</label>
-                         <input type="email" value="" required>
+                            <legend class="formHide">Date de l'évènement</legend>
+                            <label for="eMail">Date de l'évènement</label>
+                         <input type="datetime-local" value="" required>
                         </div>
 
                         <div class="formChamp">
-                            <legend class="formHide">Numéro de téléphone</legend>
-                            <label for="numPhone">Numéro de téléphone</label>
-                        <input type="number" value="numPhone" required>
+                            <legend class="formHide">Participants maximum</legend>
+                            <label for="numberParticipants">Participants maximum</label>
+                         <input type="number" value="" required>
+                        </div>
+
+                        <div class="formChamp">
+                            <legend class="formHide">Images d'illustration</legend>
+                            <label for="">Images d'illustration</label>
+                        <input type="file" value="" multiple accept=".jpg, .png, .jpeg, .cvs, ">
                         </div>
                     </div>
 
                         <div class="formChamp">
-                            <legend class="formHide" id="legendPresentation">Présentez-vous</legend>
-                            <label for="presentation">Présentez-vous</label>
-                            <textarea name="presentation" id="presentation" cols="30" rows="10"></textarea>
+                            <legend class="formHide" id="description">Description de l'évènement</legend>
+                            <label for="description">Description de l'évènement</label>
+                            <textarea name="description" id="description" cols="30" rows="10"></textarea>
                         </div>
 
                         <div class="buttonForm">
-                         <button type="submit">Envoyer votre candidature</button>
+                         <button type="submit">Poster votre évènement</button>
                         </div>
 
 
