@@ -4,20 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/styleDecouvrir.css">
+
+    <link rel="stylesheet" href="./css/styleDecouverte.css">
     <title>Découvrir</title>
 </head>
 <body>
-    <header>
-        
-
-        <div class="header">
-            <h1>Je suis le header</h1>
-        </div>
-
-    </header>
     <main>
+
+    <header></header>
+
        <section class="mainContent">
 
         <div class="firstContent">
@@ -27,6 +22,8 @@
             Normalement un berger devrait apporter un agneau pour le pastrage afin d'honorer la naissance de l'enfant Jésus".
         </p>
         </div>
+        <button><a href=""></a>En savoir plus</button>
+        
 
         <div class="secondContent">
         <h2>L'histoire du hameau.</h2>
@@ -35,9 +32,10 @@
             Normalement un berger devrait apporter un agneau pour le pastrage afin d'honorer la naissance de l'enfant Jésus".
         </p>
         </div>
-    
+        <button><a href=""></a>En savoir plus</button>
        </section>
     </main>
+
     <?php include 'footer.html'; ?>
 
 </body>
