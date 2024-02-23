@@ -26,7 +26,7 @@
 
 h2 {
     font-family: 'Aclonica';
-    font-size: 4vh;
+    font-size: 3vh;
     
 
     
@@ -53,7 +53,6 @@ legend {
 .formChamp {
     margin-bottom: 6vh;
     margin-top: 2vh;
-    margin-right: 10vw;
 }
 
 textarea {
@@ -159,8 +158,29 @@ footer button {
     color: white;
 }
 
+.formHide {
+    display : none;
+}
 
-@media screen and (min-width: 500px) {
+
+@media screen and (min-width: 900px) {
+
+    .containerFormChamp {
+        display: flex;
+        flex-direction: row;
+        flex-wrap : wrap;
+    }
+    #legendPresentation {
+        margin-left: 8vw;
+    }
+
+    .formHide {
+        display : block;
+    }
+
+    .formChamp label {
+        display : none;
+    }
     
     .containerForm h2 {
         margin-bottom: 8vh;
@@ -334,6 +354,39 @@ footer button {
 
 /* fin de style footer */
 
+
+/* DASHBOARD */
+
+#containerDashboard {
+    display: flex;
+    flex-direction : column-reverse;
+    justify-content : center;
+    align-items: center;
+}
+
+#containerPublication {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25vh;
+
+}
+
+
+.windowDashboard a {
+    display : flex;
+    flex-direction : column;
+    border: 1px black solid;
+    height: 46vh;
+    width: 36vw ;
+    justify-content: center;
+
+}
+
+#containerPublication a {
+    width: 36vw;
+    margin-top: 12vh;
+
+}
 
 
 
