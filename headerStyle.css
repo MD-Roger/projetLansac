@@ -1,0 +1,75 @@
+.navHeader {
+  display: flex;
+  align-content: space-evenly;
+  background-color: grey;
+  width: 100%;
+  height: 5vh;
+
+  .leftSide {
+    margin-left: 10vh;
+  }
+
+  .middle {
+    margin-left: 10vh;
+  }
+
+  .rightSide {
+    margin-left: 10vh;
+  }
+}
+
+body {
+  /* background-image: url(img/PHOTOGALERY\ ACCUEIL\ 2.png); */
+  background-color: red;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 5vh 5vh 5vh;
+  background-color: #fff;
+
+  .gallery {
+    width: 150px;
+    height: auto;
+  }
+
+  .description {
+  }
+
+  .first {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .third {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fourth {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.boutonNav {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 3vh;
+
+
+  #navB {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 5vh;
+    border: solid 1px black;
+    width: 10vh;
+  }
+}
