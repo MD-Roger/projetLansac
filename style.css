@@ -46,17 +46,17 @@ a{
 
 /*menu responsive version MOB*/
 body {
-    background-image: url(img/PHOTOGALERY\ ACCUEIL\ 2.png);
-    background-repeat: round no-repeat;
-    background-size: 100% 40%;
-    background-attachment: fixed;
     
-
+    background-image: url(img/fond\ de\ site.JPEG);
+    background-attachment: fixed;
+    background-repeat: round no-repeat;
+    background-size: 100% 948px;
 }
 
 .header {
     display: flex;
     flex-direction: column; 
+    
 }
 
 
@@ -260,9 +260,9 @@ li {
 @media (min-width: 768px) {
 
     body {
-        background-image: url(img/PHOTOGALERY\ ACCUEIL\.png);
-        
-        background-size:cover;
+        background-image: url(img/Frame\ 24.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         background-attachment: fixed;
         
     
