@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>fonctionne enculé</p>
-    <p>khjygfuyi</p>
-    <p>jkhyg</p>
+    
 </body>
 </html>
