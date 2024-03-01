@@ -27,83 +27,73 @@
 h2 {
     font-family: 'Aclonica';
     font-size: 3vh;
+    text-align: center;
     
 
     
 }
 
-.containerForm h2 {
-    margin-bottom: 8vh;
-    margin-top: 3vh;
-    margin-right: 6vw;
-}
+/* Global */
 
-legend {
-    padding-right: 43vw;
-    font-family: 'roboto regular';
-    text-decoration: solid;
-    font-size: 5vw;
-}
-
-#titleTextareaForm {
-    padding-right: 30vw;
-    
-}
-
-.formChamp {
-    margin-bottom: 6vh;
-    margin-top: 2vh;
-}
-
-.returnBtn {
-    display : flex;
-    justify-content : start;
-    margin-top: 2vh;
-    margin-left: 2vw;
-
-
-    
-}
-.returnBtn a {
+.containerGlobal {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border : 2px solid gold;
-    border-radius : 20px;
-    width: 20vw;
-    height: 4vh;
+    flex-direction: column;
+
+}
+
+.containerTitle {
+    margin-bottom: 4vh;
+}
+
+.containerParagraph {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+}
+
+.containerParagraph p {
+    text-align: start;
     
 }
 
-textarea {
-    box-sizing: border-box;
-    width: 90%;
-    border: 1px solid gold;
-    text-align: start;
-}
+/* button img */
 
-.formChamp input {
-    border: 1px solid gold;
-    width: 90vw;
-    text-align: start;
-
-}
-
-.buttonForm {
-    padding-bottom: 3vh;
-}
-
-.buttonForm button {
-    border: 1px solid gold;
+.containerImg button {
     background-color: white;
-    text-decoration: solid;
-    font-family: 'Aclonica';
+    border: 0;
+}
 
+/* IMG */
+
+.containerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerImg img {
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%
 
 }
 
+.previousImg img {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
 
-/* Début footer */
+.nextImg img {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+
+
+/* Footer temp */
 
 footer button {
     border: 0px;
@@ -122,6 +112,7 @@ footer button {
 .btnFooter li {
     margin-bottom: 1vh;
 }
+
 
 
 
@@ -182,131 +173,7 @@ footer button {
     display : none;
 }
 
-
-/* DASHBOARD */
-
-#containerWelcome {
-    margin-bottom: 20vh;
-}
-
-#containerDashboard {
-    display: flex;
-    flex-direction : column-reverse;
-    justify-content : center;
-    align-items: center;
-}
-
-#containerPublication {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30vh;
-
-}
-
-
-.windowDashboard a {
-    display : flex;
-    flex-direction : column;
-    border: 1px black solid;
-    height: 22vh;
-    width: 36vw ;
-    justify-content: center;
-
-}
-
-#containerPublication a {
-    width: 36vw;
-    margin-top: 12vh;
-
-}
-
-
-
-@media screen and (min-width: 900px) {
-
-    /* FORM */
-
-    .containerFormChamp {
-        display: flex;
-        flex-direction: row;
-        flex-wrap : wrap;
-    }
-    #legendPresentation {
-        margin-left: 8vw;
-    }
-
-    .formHide {
-        display : block;
-    }
-
-    .formChamp label {
-        display : none;
-    }
-    
-    .containerForm h2 {
-        margin-bottom: 8vh;
-    
-    }
-    
-    .formChamp legend {
-        font-family: 'roboto regular';
-        text-decoration: solid;
-        font-size: 3vh;
-        padding: 0;
-        text-align: start;
-    }
-    
-    #titleTextareaForm {
-        margin-left: 8vw;
-        margin-bottom: 1vh;
-                
-    }
-    
-    .formChamp {
-        margin-bottom: 6vh;
-        margin-top: 2vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    
-    textarea {
-        box-sizing: border-box;
-        width: 82%;
-        border: 1px solid gold;
-    }
-    
-    .formChamp input {
-        border: 1px solid gold;
-        padding: 0;
-        margin-top: 1vh;
-        width: 35vw;
-        height: 6vh;
-        
-    
-    }
-    
-    .buttonForm {
-        padding-bottom: 3vh;
-    }
-    
-    .buttonForm button {
-        border: 1px solid gold;
-        background-color: white;
-        text-decoration: solid;
-        font-family: 'Aclonica';
-    
-    
-    }
-
-    .containerNameMail {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    /*Fin form */
-    /* FOOTER */
-    
+@media screen and (min-width : 920px) {
     .containerGlobalFooter {
         display: flex;
         flex-direction: row;
@@ -414,11 +281,5 @@ footer button {
 
     
 }
-
-/* fin de style footer */
-
-
-
-
-
-
+    
+}
