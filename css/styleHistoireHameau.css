@@ -27,7 +27,7 @@
 h2 {
     font-family: 'Aclonica';
     font-size: 3vh;
-    text-align: center;
+    text-align: start;
     
 
     
@@ -43,6 +43,8 @@ h2 {
 
 .containerTitle {
     margin-bottom: 4vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .containerParagraph {
@@ -54,6 +56,16 @@ h2 {
 .containerParagraph p {
     text-align: start;
     
+}
+
+.containerGallery {
+    display: flex;
+    justify-content: end;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+    padding-bottom: 5vh;
+    margin-left: 5vw;
+    border-bottom: 1px solid gold;
 }
 
 /* button img */
@@ -190,6 +202,24 @@ footer button {
 
     }
 
+    .containerImg img {
+        width: 40%;
+        max-width: 40%;
+        min-width: 40%
+    
+    }
+    .previousImg img {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    
+    .nextImg img {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
 
 
     .rsFooter {
@@ -282,4 +312,3 @@ footer button {
     
 }
     
-}
