@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Aclonica";
+    src: url(/fonts/Aclonica/Aclonica-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Roboto regular";
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+  }
+  
+  /* héritage */
+  
+  *,
+  li,
+  p {
+    font-size: 2vh;
+    font-family: "Roboto regular";
+    text-decoration: none;
+    color: black;
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom, rgba(219, 254, 252, 0), #dbfefc);
+  }
+  
+  header {
+    width: 100%;
+    background-color: blue;
+    height: 100px;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .firstContent {
+    padding: 15vh 15vh 5vh 15vh;
+  
+    h2 {
+      padding-bottom: 5vh;
+    }
+  }
+  
+  button {
+    margin-bottom: 15vh;
+  }
+  .secondContent {
+    padding: 10vh 20vh 5vh 20vh;
+  
+    h2 {
+      padding-bottom: 5vh;
+    }
+  }
+  
+  /*----------------------------------------- */
+  
+  @media only screen and (max-width: 767px) {
+    .firstContent {
+      padding: 10vh 5vh 5vh 5vh;
+    }
+  
+    .secondContent {
+      padding: 10vh 5vh 5vh 5vh;
+    }
+  
+    button {
+      margin-bottom: 5vh;
+    }
+  }
+  

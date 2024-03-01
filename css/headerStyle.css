@@ -1,0 +1,175 @@
+.navHeader {
+  display: flex;
+  align-content: space-evenly;
+  background-color: grey;
+  width: 100%;
+  height: 5vh;
+
+  .leftSide,
+  .middle,
+  .rightSide {
+    margin-left: 10vh;
+  }
+}
+
+body {
+  background-image: url(../img/PHOTOGALERY\ ACCUEIL\ 2.png);
+  background-size: 215vh 330vh;
+  background-repeat: no-repeat;
+  background-position: center top 30%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 30vh 0 30vh;
+}
+
+.gallery {
+  width: 200px;
+  height: auto;
+}
+
+.description {
+  padding: 0 5vh 0 5vh;
+  font: 1.2rem "Fira Sans", sans-serif;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5vh 5vh 5vh 5vh;
+}
+
+.boutonNav {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 3vh;
+
+  #navB {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px black;
+    width: 15vh;
+    margin-right: 10px;
+  }
+}
+
+footer {
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    padding-left: 2vh;
+    font-size: 30px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navHeader {
+    display: flex;
+    background-color: grey;
+    height: 10vh;
+    width: 100%;
+
+    .leftSide,
+    .middle,
+    .rightSide {
+      margin-left: 10vh;
+    }
+  }
+
+  body {
+    background-size: 100vh 370vh;
+    background-position: center top;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .gallery {
+    /* width: 50%; */
+    height: 100%;
+  }
+
+  .description {
+    display: contents;
+    width: 35vh;
+    padding: 5vh 5vh 5vh 5vh;
+    font: 1rem "Fira Sans", sans-serif;
+    margin: auto;
+  }
+
+  .gallery {
+    /* width: 50%; */
+    height: 100%;
+  }
+
+  .main .first,
+  .main .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vh 5vh 5vh;
+  }
+
+  .main .second,
+  .main .fourth {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    /* padding: 5vh 5vh 5vh 5vh; */
+  }
+
+  .boutonNav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 3vh;
+
+    #navB {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border: solid 1px black;
+      width: 15vh;
+      margin-right: 10px;
+    }
+  }
+
+  footer {
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+  }
+}
