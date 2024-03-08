@@ -68,7 +68,7 @@
                     
                     <input class="side-menu" type="checkbox" id="side-menu"/>
                     <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-                        <!-- Menu --><!--
+                         Menu --><!--
                         <nav class="nav">
                             <ul class="menu1">
                                 <li><a href="#">Decouverte</a></li>

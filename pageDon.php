@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    
+
 
     <link rel="stylesheet" href="./css/pageDonStyle.css">
-    <title>Evenement</title>
+    <title>Page Don</title>
 </head>
+
 <body>
-<main>
+    <main>
 
-<header></header>
+        <header>je suis le header</header>
 
-   <section class="mainContent">
+        <section class="mainContent">
+            <div class="bgImg"></div>
 
-    <div class="firstContent">
-    <h2>L'histoire du hameau.</h2>
-    <p>L'église ne comporte que 85 places assises, 
-        et les derniers arrivés doivent se mettre dehors. 
-        Normalement un berger devrait apporter un agneau pour le pastrage afin d'honorer la naissance de l'enfant Jésus".
-    </p>
-    </div>
-    <button><a href=""></a>En savoir plus</button>
-    
+            <div class="bgText">
+                <h2>Donner, C'est bénir des vies</h2>
+                <p>Grâce à vous, l’église de Lansac peut mettre en œuvre la vision que Dieu a mis sur notre cœur pour notre prochain : “Aimé(e), Aimer Mieux et Aimer Plus”.
+                    Cela devient possible grâce à votre soutien financier, par un don ponctuel ou récurrent.</p>
 
-    <div class="secondContent">
-    <h2>L'histoire du hameau.</h2>
-    <p>L'église ne comporte que 85 places assises, 
-        et les derniers arrivés doivent se mettre dehors. 
-        Normalement un berger devrait apporter un agneau pour le pastrage afin d'honorer la naissance de l'enfant Jésus".
-    </p>
-    </div>
-    <button><a href=""></a>En savoir plus</button>
-   </section>
-</main>
+                <p>VOUS AVEZ LA POSSIBILITÉ DE NOUS FAIRE PARVENIR VOS DONS, DÎMES ET OFFRANDES<br>
+                    Paypal
+                    Par chèque, à l’adresse suivante : </p>
 
-<?php include 'footer.html'; ?>
+                <bouton><a href="https://www.paypal.com/fr/home"><img src="./assets/icones/bouton/paypal.png" alt="bouton paypal"></a></bouton>
+            </div>
+
+
+
+        </section>
+    </main>
+
+    <?php include 'footer.html'; ?>
 
 </body>
+
 </html>
