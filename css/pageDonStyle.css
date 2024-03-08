@@ -48,10 +48,9 @@ section.mainContent {
   .bgText {
     width: 40rem;
     margin: 15px 15px;
-    line-height: 1.5rem; 
+    line-height: 1.5rem;
     top: 15rem;
     right: 40rem;
-    
     position: absolute;
     top: 15rem;
     right: 40rem;
@@ -70,10 +69,7 @@ section.mainContent {
       width: 10rem;
       height: 4rem;
     }
-
-
   }
-
 }
 
 
@@ -84,4 +80,40 @@ button {
 
 /*----------------------------------------- */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+
+  section.mainContent {
+    height: 68rem;
+
+    .bgImg {
+      background-image: url(../assets/img/adult-1868109_1920.jpg);
+      background-size: 100vw 45vh !important;
+    }
+
+    .bgText {
+      width: 85%;
+      margin: 50px 50px;
+      line-height: 1.5rem;
+      top: 45rem;
+      right: -22px;
+
+      h2 {
+        line-height: 50px;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 1rem!important;
+      }
+  
+      p {
+        font-size: 15px;
+      }
+  
+      img {
+        margin-top: 2rem;
+        width: 10rem;
+        height: 4rem;
+
+      }
+    }
+  }
+}

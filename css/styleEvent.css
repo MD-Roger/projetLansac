@@ -43,8 +43,6 @@ section.mainContent {
   justify-content: center;
 }
 
-
-
 .firstContent,
 .secondContent,
 .thirdContent,
@@ -54,6 +52,7 @@ section.mainContent {
   padding: 15vh 15vh 10vh 15vh;
   border: 1px solid black;
   margin: 15px;
+  border-radius: 10px;
 
   h2 {
     padding-bottom: 6vh;
@@ -71,23 +70,33 @@ section.mainContent {
     margin: 30px;
     transform: translateX(215px);
   }
+
+  a {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: purple;
+  }
 }
-
-
 
 
 /*----------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-  .firstContent {
+
+  .firstContent,
+  .secondContent,
+  .thirdContent,
+  .fourthContent,
+  .fifthContent {
     padding: 10vh 5vh 5vh 5vh;
   }
 
-  .secondContent {
-    padding: 10vh 5vh 5vh 5vh;
-  }
+
 
   button {
     margin-bottom: 5vh;
+    transform: translateX(0) !important;
   }
 }
