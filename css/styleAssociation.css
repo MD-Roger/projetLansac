@@ -54,8 +54,9 @@ main {
   }
 
   .secondContent {
-    padding: 10vh 5vh 5vh 5vh;
 
-    
+    img {
+      width: 80% ;
+    }
   }
 }

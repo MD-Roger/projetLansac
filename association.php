@@ -34,6 +34,7 @@ C'est le père Claude Gay, de Saint-Étienne du Grès, qui célébrera la messe 
     
        </section>
     </main>
+    
     <?php include 'footer.html'; ?>
 
 </body>
