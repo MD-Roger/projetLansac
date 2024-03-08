@@ -1,0 +1,277 @@
+font-face {
+    font-family: "aclonica";
+    src: url(fonts/Aclonica/Aclonica-Regular.ttf);
+}
+
+
+/*Les Polices*/
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    font-family: "aclonica";
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+    padding: 40px;
+    margin: 50px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 5px rgb(194, 140, 89);
+    width: 20%;
+}
+
+a{
+    position: relative;
+    justify-content: center;
+}
+
+
+
+
+/*----------------FOOTER---------------------*/
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding-top: 10%;
+}
+
+.footer h3 {
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 4.5vh;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-size: 2.5vh;
+    text-align: center;
+    padding-bottom:2.5vh;
+}
+
+
+
+.footer-right {
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 6vh;
+}
+
+.ulBtnFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+.logo-footer {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#logo-footer {
+    width: 100%;
+}
+
+.afterfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sm-footer {
+    background-color: black;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 2%;
+    gap: 3vw;
+    height: 3.7vh;
+}
+
+#iqon-footer {
+    width: 80%;
+    margin: 1px;
+}
+
+.copyright p {
+    text-align: center;
+    margin-top: 1.3vh;
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: white;
+    width: 100%;
+    padding-bottom: 1.5vh;
+}
+
+
+.copyright {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 10%;
+}
+
+.ulBtnFooter li {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    background-color: white;
+    width: 100%;
+    font-size: 2.5vh;
+    font-family: 'roboto';
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Responsiveness VERSION WEB */
+
+@media (min-width: 900px) {
+
+
+/*----------------FOOTER---------------------*/
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.footer1 {
+    width: 30%;
+}
+
+.footer-left p {
+    text-align: left;
+    margin-left: 30%;
+    padding: 3%;
+    margin-top: 0.8vh;
+}
+
+.footer-right p {
+    text-align: right;
+    margin-right: 30%;
+    padding: 3%;
+    line-height: 50px;
+}
+
+.footer h3 {
+    padding-bottom: 5%;
+    font-size: 2vw;
+}
+
+#contentFooter {
+    margin-right: 2vw;
+}
+
+#contactFooter {
+    margin-left: 3.4vw;
+}
+
+footer p {
+    font-size: 1.5vw;
+}
+
+.logo-footer {
+    width: 40%;
+    margin:0;
+}
+
+.afterfooter1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+
+.afterfooter {
+    width: 35%;
+}
+
+.sm-footer {
+    width: 100%;
+    height: 21%;
+    gap: 2vw;
+}
+
+#iqon-footer {
+    width: 80%;
+}
+
+.copyright p {
+    font-size: 0.8vw;
+}
+
+.copyright {
+    width: 35%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ulBtnFooter {
+    margin-right: 4vw;
+}
+
+.ulBtnFooter li {
+    text-align: right;
+    
+}
+
+}
