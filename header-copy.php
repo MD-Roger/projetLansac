@@ -56,7 +56,9 @@
         <section class="main">
 
             <h1>Bienvenue chez Les amis de l'église de Lansac!</h1>
-
+            <section class="containerFirstElement">
+                
+            </section>
             <div class="btn-fixe">
 
                 <div class="btn-don">
@@ -101,54 +103,6 @@
                 </button>
             </div>
     </main>
-
-    <section class="footer">
-        <footer>
-            <div class="footer-row">
-
-                <div class="footer1">
-                    <h3>CONTENT</h3>
-                    <div class="footer-left">
-                        <a href=""><p>Decouvrir</p></a>
-                        <a href=""><p>L’histoire du hameau</p></a>
-                        <a href=""><p>L’histoire de l’église</p></a>
-                        <a href=""><p>L’association</p></a>
-                        <a href=""><p>Evènements</p></a>
-                    </div>
-                </div>
-
-                <div class="logo-footer">
-                    <img id="logo-footer" src="img/LOGO VERSION 100 bleu ACTUELL sur blanc.png" alt="" srcset="">
-                </div>
-
-                <div class="footer1">
-                    <h3>CONTACT</h3>
-                <div class="footer-right">
-                    <p>Nous trouvez : <br>
-                        Domaine de Lansac <br>
-                        1647 Route de Lansac, 13150 Tarascon, France <br>
-                        Tel:</p> <br>
-                </div>
-                </div>
-
-            </div>
-
-            <div class="afterfooter1">
-                <div class="afterfooter">
-                    <ul class="sm-footer">
-                        <a  href=""><img class="iqon" id="iqon-footer" src="./img/facebook-app-symbol.png" alt=""></a>
-                        <a  href=""><img class="iqon" id="iqon-footer" src="./img/instagram (3).png" alt=""></a>
-                        <a  href=""><img class="iqon" id="iqon-footer" src="./img/envelope.png" alt=""></a>
-                        <a  href=""><img class="iqon" id="iqon-footer" src="./img/whatsapp.png" alt=""></a>
-                    </ul>
-                </div>
-                <div class="copyright">
-                    <p>Copyright © 2024 CYber trinity. All rights reserved.</p>
-                </div>
-            </div>
-            
-        </footer>
-    </section>
 
     <?php include 'footer.html'; ?>
     
