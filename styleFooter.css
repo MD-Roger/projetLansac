@@ -192,6 +192,10 @@ footer p {
 .footer1 {
     width: 30%;
 }
+.copyright p {
+    margin-top: 1.8vh;
+
+}
 
 .footer-left p {
     text-align: left;
@@ -245,7 +249,7 @@ footer p {
 
 .sm-footer {
     width: 100%;
-    height: 21%;
+    height: 23%;
     gap: 2vw;
 }
 
